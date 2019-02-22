@@ -9,16 +9,22 @@ namespace Lab_2
     class Program
     {
         static void Main(string[] args)
+<<<<<<< HEAD
         {
 <<<<<<< HEAD
             
 =======
             int plus;
+=======
+
+        { 
+>>>>>>> test3
             
 
 >>>>>>> test2
             int  A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
+<<<<<<< HEAD
 
 
             Console.WriteLine("A={0}",A);
@@ -32,6 +38,16 @@ namespace Lab_2
             Console.WriteLine("A+B={0}",A+B);
 
 >>>>>>> test2
+=======
+           
+
+
+            Console.WriteLine("A={0}", A);
+            Console.WriteLine("B={0}", B);
+            Console.WriteLine("A*B={0}", A * B);
+
+            
+>>>>>>> test3
             Console.ReadKey();
         }
     }
