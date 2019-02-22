@@ -10,10 +10,15 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
+            int plus;
+            
+
             int  A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
             Console.WriteLine("A={0}",A);
             Console.WriteLine("B={0}",B);
+            Console.WriteLine("A+B={0}",A+B);
+
             Console.ReadKey();
         }
     }
