@@ -41,6 +41,10 @@ namespace Lab_2
 =======
            
 
+            Console.WriteLine("A={0}", A);
+            Console.WriteLine("B={0}", B);
+            Console.WriteLine("A/B={0}", A /(double) B);
+
 
             Console.WriteLine("A={0}", A);
             Console.WriteLine("B={0}", B);
